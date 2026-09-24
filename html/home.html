@@ -4,21 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PokeRegister</title>
+    <link rel="stylesheet" href="/css/home.css">
 </head>
 <body>  
-    <div class="container">
     <div class="header">
-    </div>
+    <img src="/imagens/Pokebola-pokeball-png-0 1.png" alt="logo" width="70px">    
+    <h1>PokeRegister</h1>
 
-        <div class="botoes">
-        <button onclick="cadastrar()">Cadastrar</button>
-        <button onclick="mostrarPokes()">Consultar</button>
-        <button onclick="deletarID()">Remover itens</button>
-        <button onclick="buscarPokemon()">Buscar Pokemon pelo nome</button>
-        <button onclick="limparTudo()">limpar todos os Pokemons</button>
-        <button onclick="removerUltimo()" > Remover o ultimo Pokemon</button>
-        <button onclick="limparConsole()">limpar console</button>
+
+
+    </div>
+    <div class="container">
+        <div class="linha">
+
+
+        <div class="box-exibirTudo">
+            <img src="/imagens/7_total_de_itens_charmander_colorido.png"  width="100px" height="auto    ">
+            <p>Total de pokemons</p>
+            <button onclick="exibirTotal()"> Total de itens</button>
+        </div>    
+
+
+
+        <div class="box-cadastro">
+             <img src="/imagens/1_registrar_colorido.png" width="100px" height="auto"> 
+             <p>Cadastre seu pokemon!</p>
+             <button onclick="cadastrar()">Cadastrar</button>
         </div>
+
+        <div class= "box-mostrarpokes">
+            <img src="/imagens/2_ver_pokemons_colorido.png"  width="100px" height="auto">
+            <p>Veja seus pokemons</p>
+            <button onclick="mostrarPokes()">Listar</button>
+        </div>
+
+
+        <div class="box-deletarID">
+            <img src="/imagens/3_remover_por_id_colorido.png"  width="100px" height="auto">
+            <p>Delete por ID</p>
+            <button onclick="deletarID()">Remover por id</button>
+            
+        </div>
+        </div>
+
+        <div class="linha">
+        <div class="box-buscarPoke">
+            <img src="/imagens/4_buscar_pelo_nome_colorido.png"  width="100px" height="auto">
+            <p>Buscar pelo nome</p>
+            <button onclick="buscarPokemon()">Buscar</button>
+        </div>
+
+
+        <div class="box-limparTudo">
+            <img src="/imagens/5_limpar_tudo_colorido.png"  width="100px" height="auto">
+            <p>Veja seus pokemons</p>
+            <button onclick="limparTudo()">limpar tudo</button>
+        </div>
+
+        <div class="box-removerUltimo">
+            <img src="/imagens/6_remover_o_ultimo_colorido.png"  width="100px" height="auto">
+            <p>Remova o ultimo</p>
+            <button onclick="removerUltimo()" > Remover o ultimo</button>
+        </div>
+        </div>
+
+        
+        
         
     </div>
 </body>
