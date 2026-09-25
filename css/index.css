@@ -1,10 +1,11 @@
 body{
-    background: #A52A2A;
+    
+   background: linear-gradient(to right, #A52A2A, #3F1010);
     
 }
 .container {   
-    margin: 100px auto;
-
+    margin: 200px auto;
+    
     width: 600px;
     
     border: 2px solid rgb(0, 0, 0);
@@ -13,6 +14,7 @@ body{
     
     padding-bottom: 20px;
     border-radius: 20px;
+
 }
 .header {
     font-family: Georgia, 'Times New Roman', Times, serif;
