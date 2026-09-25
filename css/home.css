@@ -8,7 +8,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 100%;
+    max-width: 100%;
     height: 100px;
     padding-left: 30px;
 
@@ -36,21 +36,15 @@ body {
  img {
     margin-top: 10px;
 }
-.container {
 
-
-}
 .linha {
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 20px;
-   margin-top: 30px;
+   margin-top: 20px;
 }
-.box-exibirTudo {
-    display: flex;
 
-}
 
 
 .container p {
@@ -67,11 +61,13 @@ body {
 }
 .container button {
     width: 129px;
-    padding: 5px;
+    padding: 7.5px;
     margin-top: 10px;
     border-radius: 20px;
     background-color: brown;
     color: white;
+    border: none;
+   
 }
 button:hover{
     background-color: black;

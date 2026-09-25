@@ -23,22 +23,22 @@ function cadastrar () {
 
       
         const novoPoke = {
-            nomePokemon: nomePokemon,
+            nomePokemon: nomePokemon.toLocaleLowerCase(),
             tipo: tipo,
             genero: genero
         }
         
         totalMons.push(novoPoke);
-        console.log ("Cadastro feito com Sucesso!");
+        console.log ("Pokemon Cadastrado com sucesso!");
         alert ("Registro Concluido!");
     }
 
 
 
 function mostrarPokes(){
-    if (totalMons == 0){alert("Nenhum item encontrado")}
+    if (totalMons == 0){alert("Nenhum Pokemon encontrado")}
     for (i = 0 ; i < totalMons.length; i++){
-        alert(`Ordem de registro: ${i + 1}\nNome: ${totalMons[i].nomePokemon}\nTipo: ${totalMons[i].tipo}\nGenero: ${totalMons[i].genero}`);
+        alert(`id: ${i + 1}\nNome: ${totalMons[i].nomePokemon}\nTipo: ${totalMons[i].tipo}\nGenero: ${totalMons[i].genero}`);
     }
 }
 
